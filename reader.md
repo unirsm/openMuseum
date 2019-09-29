@@ -3,6 +3,7 @@
 Il lettore portatile funziona leggendo con  antenna  RC522 i tag RFID posizionati nello spazio espositivo. Il sistema è costituito da una Raspberry PI zero W con installato Node-Red e Mosquitto.
 Il lettore può essere connesso a qualsiasi sistema di riproduzione audio Bluetooth (Speaker, Cuffie e sistemi di diffusione permanenti).
 
+![Reader 3D printing model 5  ](https://github.com/unirsm/openMuseum/blob/dev01/reader/img/Reader_V05_7.png)
 
 ## Dimensione componenti
 
