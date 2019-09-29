@@ -60,7 +60,7 @@ Gestione della presenza del visitatore nello spazio e attivazione di processi di
 - Gestione dinamica di un videoproiettore connesso alla rete elettrica. Struttura permanente da sviluppare in via prototipale ma non applicabile al budget del progetto.
 - Gestione del mapping in spazi vuoti in maniera dinamica.
 
-### 3.0	Componenti
+### 3.0	Componenti svi
 
 [Reader RFID](https://github.com/unirsm/openMuseum/blob/master/reader/README.md)
 ![Reader Prototipo](https://github.com/unirsm/openMuseum/blob/master/reader/img/reader.jpg)
@@ -69,4 +69,4 @@ Gestione della presenza del visitatore nello spazio e attivazione di processi di
 ![Server Web UI](https://github.com/unirsm/openMuseum/blob/master/server/img/server_UI_01.jpg)
 
 [Spot Light neopixel](https://github.com/unirsm/openMuseum/blob/master/spotNeopixel/README.md)
-![Spot Light neopixel Prototipo](https://github.com/unirsm/openMuseum/spotNeopixel/img/spotNeopixel_test_08.jpg)
+![Spot Light neopixel Prototipo](https://github.com/unirsm/openMuseum/blob/master/spotNeopixel/img/spotNeopixel_test_08.jpg)
