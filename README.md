@@ -2,13 +2,21 @@
 
 # openMuseum
 
-## 1.1 Descrizione generale del progetto
+## 1.0 Il progetto
+
+### 1.1 Descrizione generale del progetto
 
 Il Progetto di ricerca triennale “Nuovi sistemi integrativi per la fruizione del percorso espositivo della Casa Museo“ ha coinvolto in un programma di progettazione partecipata un gruppo di ricerca dell’area Exhibit e Interaction Design dell’Università delgi Studi della Repubblica di San Marino e le otto Istituzioni del Coordinamento delle Case Museo dei Poeti e degli Scrittori di Romagna (Protocollo di intesa sottoscritto dall’Università e dal Comune di Forlì, in qualità di Comune capofila del Coordinamento delle Case Museo dei Poeti e degli Scrittori di Romagna in data 18 luglio 2017).
 
 ![Schema del progetto del sistema interattivo](project.jpg)
 
-## 1.2 Gruppo di lavoro progetto
+### 1.2	Componenti hardware progettati
+
+- [Reader RFID](https://github.com/unirsm/openMuseum/blob/master/reader/README.md)
+- [Spot Light neopixel](spotNeopixel/README.md)
+- [Server](https://github.com/unirsm/openMuseum/blob/master/server/README.md)
+
+### 1.3 Gruppo di lavoro progetto
 
 Alessandra Bosco, Elena La Maida, Emanuele Lumini, Mirco Piccin e Michele Zannoni
 
@@ -56,12 +64,6 @@ Gestione della presenza del visitatore nello spazio e attivazione di processi di
 - Gestione degli elementi interattivi da remoto
 - Gestione dinamica di un videoproiettore connesso alla rete elettrica. Struttura permanente da sviluppare in via prototipale ma non applicabile al budget del progetto.
 - Gestione del mapping in spazi vuoti in maniera dinamica.
-
-### 3.0	Componenti hardware progettati
-
-- [Reader RFID](https://github.com/unirsm/openMuseum/blob/master/reader/README.md)
-- [Spot Light neopixel](spotNeopixel/README.md)
-- [Server](https://github.com/unirsm/openMuseum/blob/master/server/README.md)
 
 
 ![Spot Light neopixel Prototipo](spotNeopixel/img/spotNeopixel_test_08.jpg)
