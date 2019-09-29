@@ -1,1 +1,3 @@
 # openMuseum
+
+Il Progetto di ricerca triennale “Nuovi sistemi integrativi per la fruizione del percorso espositivo della Casa Museo“ ha coinvolto in un programma di progettazione partecipata un gruppo di ricerca dell’area Exhibit e Interaction Design dell’Università delgi Studi della Repubblica di San Marino e le otto Istituzioni del Coordinamento delle Case Museo dei Poeti e degli Scrittori di Romagna (Protocollo di intesa sottoscritto dall’Università e dal Comune di Forlì, in qualità di Comune capofila del Coordinamento delle Case Museo dei Poeti e degli Scrittori di Romagna in data 18 luglio 2017).
