@@ -2,7 +2,7 @@
 
 Alimentato con un powerbank è pensato per essere inserito in contesti privi di rete elettrica.
 
-![Il prototipo](img/spotNeopixel_05.jpg)
+![Il prototipo](img/spotNeopixel_00.jpg)
 
 
 ## Hardware
