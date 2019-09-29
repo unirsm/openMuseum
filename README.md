@@ -8,13 +8,9 @@ Il Progetto di ricerca triennale “Nuovi sistemi integrativi per la fruizione d
 
 ![Schema del progetto del sistema interattivo](project.jpg)
 
-## 1.2 Gruppo di lavoro progetto IoT
+## 1.2 Gruppo di lavoro progetto
 
-Alessandra Bosco (UNIRSM)
-Elena La Maida  (UNIRSM)
-Emanuele Lumini (UNIRSM)
-Mirco Piccin  (FABLAB di Castelfranco Veneto)
-Michele Zannoni (UNIBO)
+Alessandra Bosco, Elena La Maida, Emanuele Lumini, Mirco Piccin e Michele Zannoni
 
 
 ## 2.0 Analisi preliminare e presupposti di progetto
@@ -61,7 +57,7 @@ Gestione della presenza del visitatore nello spazio e attivazione di processi di
 - Gestione dinamica di un videoproiettore connesso alla rete elettrica. Struttura permanente da sviluppare in via prototipale ma non applicabile al budget del progetto.
 - Gestione del mapping in spazi vuoti in maniera dinamica.
 
-### 3.0	Componenti svi
+### 3.0	Componenti hardware progettati
 
 - [Reader RFID](https://github.com/unirsm/openMuseum/blob/master/reader/README.md)
 - [Spot Light neopixel](spotNeopixel/README.md)
