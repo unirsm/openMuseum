@@ -7,15 +7,16 @@ La configurazione della rete wifi avviene localmente inserendo nella partizione 
 
 
     [{
-    	"casamuseo_id": 2,
-    	"ssid": "nomerete",
-	    "password": "password",
-		 "server_remoto_configurazione":"http://server.web"
-	    "ip_address": "192.168.189.55"
-	    "gateway": "192.168.189.1"
-	    "dns": "192.168.189.1",
-	    "password_reader": "password_operativa"
+           "casamuseo_id": 2,
+           "ssid": "nomerete",
+           "password": "password",
+           "server_remoto_configurazione": "http://lab.z14.it/giano"
+           "ip_address": "192.168.189.55"
+           "gateway": "192.168.189.1"
+           "dns": "192.168.189.1",
+	       "password_reader": "password_operativa"
     }]
+
 
 Queste informazioni sono sufficienti a stabilire la connessione del lettore alla rete locale, e a permettere allo stesso di raggiungere il server (sia esso locale o remoto) da cui scaricare tutte le configurazioni di TAG, contenuti, interazioni. La password_reader va inserita uguale nel record del sistema online e permetterà di interagire con il disposto dalla piattaforma web. La voce "casamuseo_id" indica il riferimento della tabella online da cui recuperare i json secondo il seguente schema.
 
@@ -143,173 +144,61 @@ Da parte del nodo ci sarà una interrogazione al server remoto per ottenere ques
     	}]
     }]
 
-
-
-
-
-
-
 ### Definizione device: IKEA TRADFRI
 
 Aggiornamento:
 
-Questa procedura è disattivata la configurazione va fatta da Nodered. Nello sviluppo futuro si potrà usare questa libreria
+Questa procedura è disattivata la configurazione va fatta da Node-Red. Nello sviluppo futuro si potrà usare questa libreria
 
-[https://github.com/ggravlingen/pytradfri](https://github.com/ggravlingen/pytradfri)
-
-
-File:  tradfri.json
-
-Url:  json.php?m=2&t=tradfri
-
-Test: [http://lab.z14.it/giano/json.php?m=2&t=tradfri](http://lab.z14.it/giano/json.php?m=2&t=tradfri)
-
-
-
-
-[{
-
-"id_casamuseo": 1,
-
-"tradfri": [{
-
-"id": 1,
-
-"ip_gateway": "192.168.0.111",
-
-"id_bulbo": "TRADFRI bulb E27 opal 1000lm",
-
-"bulbo_descrizione": "Luce su staffa"
-
-},{
-
-"id": 2,
-
-"ip_gateway": "192.168.0.111",
-
-"id_bulbo": "TRADFRI bulb E27 opal 1000lm 2",
-
-"bulbo_descrizione": "Luce su cavalletto"
-
-}]
-
-}]
-
-
-
-Imputazione fatta da supporto locale tecnico (è necessario configurare sull’AP dell’indirizzo del gateway).
-
-
-
+[https://github.com/ggravlingen/pytradfri](https://github.com/ggravlingen/pytradfri)  
 
 ## Interazione RFID contenuti / devices
 
-La tabella in cui sono registrate le interazioni tra RFID e contenuti e devices è il cuore del sistema.
+La tabella in cui sono registrate le interazioni tra RFID e contenuti e devices è il cuore del sistema. Da WUI l’utente potrà scegliere il tag rfid numerato e associarlo alla cassa bluetooth, piuttosto che ad un video, ad una luce o ad un suono. Ci sarà una tabella con di base le informazioni: Id_casa_museo : id : id_rfid : id_contenuto_device : tipo_contenuto_device
+Da parte del nodo ci sarà una interrogazione al server remoto per ottenere questa tabella, usando come parametro di richiesta l’id della CasaMuseo. La risposta ottenuta, su file *interactions.json* sarà formattata come esempio seguente:
 
-Da WUI l’utente potrà scegliere il tag rfid numerato e associarlo alla cassa bluetooth, piuttosto che ad un video, ad una luce o ad un suono.
-
-
-
-Ci sarà una tabella con di base le informazioni:
-
-Id_casa_museo : id : id_rfid : id_contenuto_device : tipo_contenuto_device
+### File:  interaction.json
+*Url:  json.php?m=2&t=interaction*
 
 
-
-Da parte del nodo ci sarà una interrogazione al server remoto per ottenere questa tabella, usando come parametro di richiesta l’id della CasaMuseo. La risposta ottenuta, su file interactions.json sarà formattata come esempio seguente:
-
-
-
-
-
-File:  interaction.json
-
-Url:  json.php?m=2&t=interaction
-
-Test: [http://lab.z14.it/giano/json.php?m=2&t=interaction](http://lab.z14.it/giano/json.php?m=2&t=interaction)
-
-
-
-
-[{
-
-"id_casamuseo":2,
-
-"interaction":[{
-
-"id_rfid":1,
-
-"object":[{
-
-"id":1,
-
-"type":"bt_speaker",
-
-"id_ix":1
-
-}]
-
-},{
-
-"id_rfid":2,
-
-"object":[{
-
-"id":1,
-
-"type":"multimedia",
-
-"id_ix":1
-
-},{
-
-"id":2,
-
-"type":"neopixelspot",
-
-"id_ix":2
-
-}]
-
-},{
-
-"id_rfid":3,
-
-"object":[{
-
-L’ho tolto "id":1,
-
-"type":"bt_speaker",
-
-"id_ix":1
-
-},{
-
-"id":2,
-
-"type":"multimedia",
-
-"id_ix":2
-
-},{
-
-"id":3,
-
-"type":"neopixelspot",
-
-"id_ix":1
-
-
-},{
-
-"id":4,
-
-"type":"tradfri",
-
-"id_ix":1
-
-}]
-
-}]
-
-}
+      [{
+      "id_casamuseo":2,
+      "interaction":[{
+        "id_rfid":1,
+        "object":[{
+          "id":1,
+          "type":"bt_speaker",
+          "id_ix":1
+        }]
+      },{
+        "id_rfid":2,
+        "object":[{
+          "id":1,
+          "type":"multimedia",
+          "id_ix":1
+        },{
+          "id":2,
+          "type":"neopixelspot",
+          "id_ix":2
+      }]
+      },{
+        "id_rfid":3,
+        "object":[{
+         L’ho tolto "id":1,
+          "type":"bt_speaker",
+          "id_ix":1
+        },{
+          "id":2,
+          "type":"multimedia",
+          "id_ix":2
+        },{
+          "id":3,
+          "type":"neopixelspot",
+          "id_ix":1
+        },{
+          "id":4,
+          "type":"tradfri",
+          "id_ix":1
+        }]
+      }]
+    }]
