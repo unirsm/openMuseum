@@ -32,7 +32,10 @@ s
 ![Reader picture 4 model 5  ](img/Reader_V05_4.png)
 ![Reader picture 5 model 5  ](img/Reader_V05_5.png)
 ![Reader picture 6 model 5  ](img/Reader_V05_6.png)
-![Reader picture 6 model 5  ](reader/img/reader_battery.jpg)
+
+## The prototypes
+
+![Reader picture 6 model 5  ](img/reader_battery.jpg)
 ![Reader picture 6 model 5  ](img/reader.jpg)
 ![Reader picture 6 model 5  ](reader/img/Reader_V05_8.png)
 ![Reader picture 6 model 5  ](img/reader_head_8.jpg)
