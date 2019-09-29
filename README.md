@@ -19,15 +19,15 @@ Michele Zannoni (UNIBO)
 ## 2.0 Analisi preliminare e presupposti di progetto
 
 ### 2.1 Contesto
- 
+
 
  - Case museo eterogenee con tipologie molto diverse di percorsi
-   espositivi. 
+   espositivi.
 - Spazi liberi vuoti o stanze arredate.
 
- 
+
 ### 2.2 Vincoli delle case museo
- 
+
 Necessità di un intervento non invasivo
 - Impossibilità di fare interventi strutturali in diverse sale che alterino l’allestimento storico
 - Allaccio alla rete elettrica molto problematico e troppo invasivo per alcuni contesti espositivi
@@ -36,18 +36,18 @@ Necessità di un intervento non invasivo
 - Sistema di ricarica della batteria certificato
 - Personale eterogeneo e non preparato che può essere formato
 - Problemi di connessione delle case
-- Costo molto basso dell’oggetto interattivo 
+- Costo molto basso dell’oggetto interattivo
 - Facilità e flessibilità d’uso
- 
+
 ### 2.3	Presupposti
- 
+
 - Evitare l’inserimento di elementi estranei alle case museo evitando schermi e sistemi visivi permanenti
 - Sviluppo di un sistema aperto e implementabile dagli operatori
 - Dimensione contenuta degli oggetti
 - Visibilità degli oggetti
- 
+
 ### 2.4	Obiettivi principali
- 
+
 Gestione della presenza del visitatore nello spazio e attivazione di processi di interazione con contenuti audio e video.
 - Permettere la contestualizzazione di un audio narrativo localizzato attivabile da un visitatore o da una guida.
 - Gestire luci all’interno dello spazio per sottolineare singoli elementi.
@@ -57,5 +57,16 @@ Gestione della presenza del visitatore nello spazio e attivazione di processi di
 - Raccolta da remoto dei dati delle visite
 - Strumenti di analisi dei dati dei visitatori all’interno delle case museo.
 - Gestione degli elementi interattivi da remoto
-- Gestione dinamica di un videoproiettore connesso alla rete elettrica. Struttura permanente da sviluppare in via prototipale ma non applicabile al budget del progetto. 
+- Gestione dinamica di un videoproiettore connesso alla rete elettrica. Struttura permanente da sviluppare in via prototipale ma non applicabile al budget del progetto.
 - Gestione del mapping in spazi vuoti in maniera dinamica.
+
+### 3.0	Componenti
+
+[Reader RFID](https://github.com/unirsm/openMuseum/blob/master/reader/README.md)
+![Reader Prototipo](https://github.com/unirsm/openMuseum/blob/master/reader/img/reader.jpg)
+
+[Server](https://github.com/unirsm/openMuseum/blob/master/server/README.md)
+![Server Web UI](https://github.com/unirsm/openMuseum/blob/master/server/img/server_UI_01.jpg)
+
+[Spot Light neopixel](https://github.com/unirsm/openMuseum/blob/master/spotNeopixel/README.md)
+![Spot Light neopixel Prototipo](https://github.com/unirsm/openMuseum/spotNeopixel/img/spotNeopixel_test_08.jpg)
