@@ -1,6 +1,6 @@
 # Modulo Server
 
-Il server ha due componenti, una sviluppata in PHP e MYSQL che può risiedere anche su un server online e una locale installata su una Raspberry PI 3 sviluppata in Node-RED sviluppata per migliorare lo streaming video.
+Il server ha due componenti: una sviluppata in PHP e MYSQL che può risiedere anche su un provider online e una locale installata su una Raspberry PI 3 B+ sviluppata in Node-RED per migliorare lo streaming video e la gestione dei sistemi domotici.
 
 ![Raspberry PI 3 B+ photo by Gareth Halfacree](img/1600px-Raspberry_Pi_3_B+.png)
 
