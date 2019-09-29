@@ -5,7 +5,7 @@ Il lettore può essere connesso a qualsiasi sistema di riproduzione audio Blueto
 
 [Download ISO 20190929 v.07a](https://www.dropbox.com/s/mdmm8pqs013waee/20190929_Iso_base_CCM.img.zip?dl=0)
 
-![Reader 3D printing model 5  ](reader/img/Reader_V05_7.png)
+![Reader 3D printing model 5  ](img/Reader_V05_7.png)
 
 ## Dimensione componenti
 
@@ -20,14 +20,14 @@ s
 
 ## Hardware
 
-![Reader hardware connections ](reader/img/Reader_201906_bb.png)
-![Hardware components ](reader/img/reader-components.jpg)
+![Reader hardware connections ](img/Reader_201906_bb.png)
+![Hardware components ](img/reader-components.jpg)
 
 ## The 3d printing model
 
-![Reader picture 1 model 5  ](reader/img/Reader_V05_1.png)
-![Reader picture 2 model 5  ](reader/img/Reader_V05_2.png)
-![Reader picture 3 model 5  ](reader/img/Reader_V05_3.png)
-![Reader picture 4 model 5  ](reader/img/Reader_V05_4.png)
-![Reader picture 5 model 5  ](reader/img/Reader_V05_5.png)
-![Reader picture 6 model 5  ](reader/img/Reader_V05_6.png)
+![Reader picture 1 model 5  ](img/Reader_V05_1.png)
+![Reader picture 2 model 5  ](img/Reader_V05_2.png)
+![Reader picture 3 model 5  ](img/Reader_V05_3.png)
+![Reader picture 4 model 5  ](img/Reader_V05_4.png)
+![Reader picture 5 model 5  ](img/Reader_V05_5.png)
+![Reader picture 6 model 5  ](img/Reader_V05_6.png)
