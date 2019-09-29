@@ -4,7 +4,7 @@ Il lettore portatile funziona leggendo con  antenna  RC522 i tag RFID posizionat
 Il lettore può essere connesso a qualsiasi sistema di riproduzione audio Bluetooth (Speaker, Cuffie e sistemi di diffusione permanenti).
 
 [Download ISO 20190929 v.07a](https://www.dropbox.com/s/mdmm8pqs013waee/20190929_Iso_base_CCM.img.zip?dl=0)
-[Last Node-Red flow](reader/flows_casamuseorpi.json)
+[Last Node-Red flow](node-red/flows_casamuseorpi.json)
 
 ![Reader 3D printing model 5  ](img/Reader_V05_7.png)
 
