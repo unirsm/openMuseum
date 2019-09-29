@@ -65,5 +65,15 @@ Gestione della presenza del visitatore nello spazio e attivazione di processi di
 - Gestione dinamica di un videoproiettore connesso alla rete elettrica. Struttura permanente da sviluppare in via prototipale ma non applicabile al budget del progetto.
 - Gestione del mapping in spazi vuoti in maniera dinamica.
 
+## 3.0 License
+
+Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+the  [license](https://creativecommons.org/licenses/by-nc/4.0/legalcode). [Disclaimer](https://creativecommons.org/licenses/by-nc/4.0/#).
+
+Share — copy and redistribute the material in any medium or format
+Adapt — remix, transform, and build upon the material
+The licensor cannot revoke these freedoms as long as you follow the license terms.
+Authors: Alessandra Bosco, Elena La Maida, Emanuele Lumini, Mirco Piccin e Michele Zannoni
+
 
 ![Spot Light neopixel Prototipo](spotNeopixel/img/spotNeopixel_test_08.jpg)

@@ -39,3 +39,13 @@ s
 ![Reader picture 6 model 5  ](img/reader.jpg)
 ![Reader picture 6 model 5  ](reader/img/Reader_V05_8.png)
 ![Reader picture 6 model 5  ](img/reader_head_8.jpg)
+
+## License
+
+Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+the  [license](https://creativecommons.org/licenses/by-nc/4.0/legalcode). [Disclaimer](https://creativecommons.org/licenses/by-nc/4.0/#).
+
+Share — copy and redistribute the material in any medium or format
+Adapt — remix, transform, and build upon the material
+The licensor cannot revoke these freedoms as long as you follow the license terms.
+Authors: Alessandra Bosco, Elena La Maida, Emanuele Lumini, Mirco Piccin e Michele Zannoni

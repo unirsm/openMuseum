@@ -22,4 +22,12 @@ La password di default del sistema di gestione dei contenuti multimediali dell'u
 ![Server Web UI](img/server_UI_02.png)
 ![Server Web UI](img/server_UI_03.png)
 
-- [modelli Rhinoceros]()
+## License
+
+Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+the  [license](https://creativecommons.org/licenses/by-nc/4.0/legalcode). [Disclaimer](https://creativecommons.org/licenses/by-nc/4.0/#).
+
+Share — copy and redistribute the material in any medium or format
+Adapt — remix, transform, and build upon the material
+The licensor cannot revoke these freedoms as long as you follow the license terms.
+Author: Michele Zannoni
