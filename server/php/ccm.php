@@ -64,7 +64,7 @@ function read_Reader($table,$label,$order,$where) {
         $edit = "<a onclick='$(\"#$id_editor\").toggle();' class='edit_device' id='bt_device_".$r["id"]."' href='#' data=''>config</a>";
         $editor_device ="<span class='device_editor' id='$id_editor'></span>";
         $o.="</strong></span>$edit $editor_device $del<hr />";
-        $qrcode = $qrcode_generator."http://".$r["ip_reader"].":1880/ui";
+        $qrcode = $qrcode_generator."http://".$r["ip_reader"].":1880/display";
         $o .= "<a href='$qrcode' target='_blank'><img style='width:60px;height:60px;position:absolute; right:$right;top:-6px;' src='".$qrcode."'></a>";
         $o .="</div>";
 
