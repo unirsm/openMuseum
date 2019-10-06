@@ -6,6 +6,14 @@ Il lettore può essere connesso a qualsiasi sistema di riproduzione audio Blueto
 [Download ISO 20190929 v.07a](https://www.dropbox.com/s/mdmm8pqs013waee/20190929_Iso_base_CCM.img.zip?dl=0)
 [Last Node-Red flow](node-red/flows_casamuseorpi.json)
 
+## Procedura di aggiornamento
+
+1	Caricamento del FLOW aggiornato
+1.1	Collegarsi in SFTP al device
+1.2	Caricare il file flows_casamuseorpi.json nella cartella /home/pi/.node-red/ (Attivare la visualizzazione dei file nascosti)
+1.3	Caricare il vostro file logo.png nella cartella /home/pi/media/
+1.4	Riavviare il device
+
 ![Reader 3D printing model 5  ](img/Reader_V05_7.png)
 
 ## Dimensione componenti
@@ -23,6 +31,7 @@ s
 
 ![Reader hardware connections ](img/Reader_201906_bb.png)
 ![Hardware components ](img/reader-components.jpg)
+
 
 ## The 3d printing model
 
