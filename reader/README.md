@@ -8,11 +8,11 @@ Il lettore può essere connesso a qualsiasi sistema di riproduzione audio Blueto
 
 ## Procedura di aggiornamento
 
-1	Caricamento del FLOW aggiornato
-1.1	Collegarsi in SFTP al device
-1.2	Caricare il file flows_casamuseorpi.json nella cartella /home/pi/.node-red/ (Attivare la visualizzazione dei file nascosti)
-1.3	Caricare il vostro file logo.png nella cartella /home/pi/media/
-1.4	Riavviare il device
+- 1	Caricamento del FLOW aggiornato
+- 1.1	Collegarsi in SFTP al device
+- 1.2	Caricare il file flows_casamuseorpi.json nella cartella /home/pi/.node-red/ (Attivare la visualizzazione dei file nascosti)
+- 1.3	Caricare il vostro file logo.png nella cartella /home/pi/media/
+- 1.4	Riavviare il device
 
 ![Reader 3D printing model 5  ](img/Reader_V05_7.png)
 
