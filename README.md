@@ -14,7 +14,7 @@ Il Progetto di ricerca triennale “Nuovi sistemi integrativi per la fruizione d
 
 - [Reader RFID](https://github.com/unirsm/openMuseum/blob/master/reader/README.md)
 - [Spot Light neopixel](spotNeopixel/README.md)
-- [Server](https://github.com/unirsm/openMuseum/blob/master/server/README.md)
+- [Server](server/)
 
 ### 1.3 Gruppo di lavoro progetto
 
