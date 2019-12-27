@@ -3,6 +3,13 @@
 Il lettore portatile funziona leggendo con  antenna  RC522 i tag RFID posizionati nello spazio espositivo. Il sistema è costituito da una Raspberry PI zero W con installato Node-Red e Mosquitto.
 Il lettore può essere connesso a qualsiasi sistema di riproduzione audio Bluetooth (Speaker, Cuffie e sistemi di diffusione audio permanenti).
 
+## Password e user delle ISO e del reader
+La password di default dell'utente "pi" dell'ISO è "password"
+
+La password di default di Node-Red dell'utente "admin" è "password"
+
+La password di default del sistema di gestione dei contenuti multimediali dell'utente "admin" è "password"
+
 [Download ISO 20190929 v.07a](https://www.dropbox.com/s/mdmm8pqs013waee/20190929_Iso_base_CCM.img.zip?dl=0)
 
 [Last Node-Red flow](node-red/flows_casamuseorpi.json)
