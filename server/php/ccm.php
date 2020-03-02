@@ -1,4 +1,19 @@
 <?php
+/**
+ * NOTICE OF LICENSE
+ * Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) the license. Disclaimer.
+ *
+ * You do not have to comply with the license
+ * for elements of the material in the public domain
+ * or where your use is permitted by an applicable exception or limitation.
+ * No warranties are given. The license may not give you all of the permissions necessary for your intended use.
+ * For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
+ *
+ *  @author    Michele Zannoni
+ *  @copyright 2019-2020 Michele Zannoni
+ *  @license   https://creativecommons.org/licenses/by-nc/4.0/legalcode
+ */
+
 $o.='<a class="add" href="'.$editor.'?a=new&tb=device">+</a>';
 
 $o.='

@@ -1,11 +1,18 @@
 <?php
-# Michele Zannoni © 2018
-# Tutti i diritti sono riservati
-#
-# 20180802 v19.9
-# 20180802 v19.8
-# 20180601 v19.7
-# 20180630 v19.6
+/**
+ * NOTICE OF LICENSE
+ * Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) the license. Disclaimer.
+ *
+ * You do not have to comply with the license
+ * for elements of the material in the public domain
+ * or where your use is permitted by an applicable exception or limitation.
+ * No warranties are given. The license may not give you all of the permissions necessary for your intended use.
+ * For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
+ *
+ *  @author    Michele Zannoni
+ *  @copyright 2019-2020 Michele Zannoni
+ *  @license   https://creativecommons.org/licenses/by-nc/4.0/legalcode
+ */
 
 error_reporting(E_ALL);ini_set('display_errors', 1);
 
@@ -545,17 +552,17 @@ function user() {
         $out = '<div id="login" class="">';
 		$out.= '
         	<form method="post" action="'.$editor.'">
-            	<label for="label4" class="titoli">nome utente: </label>
+            	<label for="label4" class="titoli">user: </label>
             	<input type="text" name="login" id="label4" tabindex="1" class="testo" />
             	<label for="pwd" class="titoli">password: </label>
             	<input type="password" name="pwd" id="pwd" tabindex="2" class="testo" width="200" />
             	<div class="error">'.$errore.'</div>
-            	<input name="submit" type="submit" tabindex="3" value="- Entra -" class="testo" />
+            	<input name="submit" type="submit" tabindex="3" value="login" class="testo" />
             	<input type="hidden" name="action" value="login">
             </form>
         ';
 	}
-    $out.= '</div>';
+    $out.= '</div><div id="version">OpenMuseum 1.1a</div>';
     return $out;
 }
 
@@ -846,6 +853,7 @@ function l($v) {global $l; $l.=$v."\n<hr>";} //write the log
         html, body {margin: 20px 0 0 0;border: 0;padding: 0;font-family: 'Exo', sans-serif;background:#EEEEEE;font-size: 12px;color: #333333;}
 		    body {text-align: center;} a {text-decoration: none;color: #000066;}
 
+        #version {margin-top: 10px; color:#999;}
         #debug {text-align: left;background: #000; color: #fff;overflow: scroll;}
         #debig pre {float: left;white-space: pre-wrap;font-style: italic;}
 		    #logo {width: 100px;height: 100px;display: block;}
