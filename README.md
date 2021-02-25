@@ -78,4 +78,4 @@ Authors: Alessandra Bosco, Elena La Maida, Emanuele Lumini, Mirco Piccin e Miche
 
 ![Spot Light neopixel Prototipo](spotNeopixel/img/spotNeopixel_test_08.jpg)
 
-end
+Fig. 1 Lo spot realizzato per la sperimentazione
